@@ -30,6 +30,7 @@ public class AlmostSorted {
             System.out.println("yes");
             System.out.println("swap " + (l + 1) + " " + (r + 1));
             return;
+            
         }
 
         swap(arr, l, r); 
