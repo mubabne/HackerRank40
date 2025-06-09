@@ -6,13 +6,11 @@
 
 Зорилго нь: өгөгдсөн string-ийн хамгийн ойрын дараагийн том хувилбарыг олох.
 
----
 
 ## Бодлогын холбоос
 
 [Bigger is Greater - HackerRank](https://www.hackerrank.com/challenges/bigger-is-greater/problem?isFullScreen=true)
 
----
 
 ## Нотолгоо ба шийдэл
 
@@ -24,7 +22,6 @@
 
 Энэ нь "lexicographically next permutation" буюу дараагийн хамгийн ойрын хувилбарыг олох greedy арга юм.
 
----
 
 ## Жишээ
 
@@ -44,7 +41,6 @@ dhkc
 hcdk
 
 ## Директор бүтэц
-
 HackerRank
     ├── Algorithm
     |   ├── Bodlogo08
