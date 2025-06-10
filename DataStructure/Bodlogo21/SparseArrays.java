@@ -1,4 +1,4 @@
-package DataStructure.Bodlogo21;
+package Bodlogo21;
 
 import java.io.*;
 import java.util.*;

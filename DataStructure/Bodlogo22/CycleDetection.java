@@ -1,4 +1,4 @@
-package data_structure.problem22;
+package Bodlogo22;
 
 import java.io.*;
 import java.util.*;
