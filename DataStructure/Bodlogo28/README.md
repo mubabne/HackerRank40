@@ -43,3 +43,12 @@
 7
 3
 ```
+
+## Директор бүтэц
+HackerRank
+    ├──.vscode
+    ├──Algorithm
+    ├── DataStructure
+    |   ├── Bodlogo28
+    |   |   ├── DynamicArray.java
+    |   |   └── README.md

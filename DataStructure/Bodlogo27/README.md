@@ -30,3 +30,12 @@
 Үйлдэл: элементүүдийг хэвлэх
 Гаралт: 1 2 3 4 5
 ```
+
+## Директор бүтэц
+HackerRank
+    ├──.vscode
+    ├──Algorithm
+    ├── DataStructure
+    |   ├── Bodlogo27
+    |   |   ├── ArrayDs.java
+    |   |   └── README.md

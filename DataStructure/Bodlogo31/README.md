@@ -49,3 +49,13 @@
 14
 14
 ```
+
+
+## Директор бүтэц
+HackerRank
+    ├──.vscode
+    ├──Algorithm
+    ├── DataStructure
+    |   ├── Bodlogo21
+    |   |   ├── QueueUsingTwoStack.java
+    |   |   └── README.md

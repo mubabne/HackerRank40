@@ -40,3 +40,12 @@ Histogram-д хамгийн том талбайтай тэгш өнцөгтий�
 
 Тайлбар: Өндөр 3, өргөн 3 байх тэгш өнцөгт (талбай = 3 × 3 = 9)
 ```
+
+## Директор бүтэц
+HackerRank
+    ├──.vscode
+    ├──Algorithm
+    ├── DataStructure
+    |   ├── Bodlogo32
+    |   |   ├── LargestRegtangle.java
+    |   |   └── README.md

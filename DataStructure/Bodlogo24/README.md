@@ -43,3 +43,12 @@ Swap хийх бүрт модны inorder traversal-ийн дараалал
 
 Inorder: 3 1 2
 ```
+
+## Директор бүтэц
+HackerRank
+    ├──.vscode
+    ├──Algorithm
+    ├── DataStructure
+    |   ├── Bodlogo24
+    |   |   ├── SwapNodes.java
+    |   |   └── README.md

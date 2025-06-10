@@ -41,3 +41,12 @@
 
 Тайлбар: [100, 200, 200, 200, 100]
 ```
+
+## Директор бүтэц
+HackerRank
+    ├──.vscode
+    ├──Algorithm
+    ├── DataStructure
+    |   ├── Bodlogo30
+    |   |   ├── ArrayManipulation.java
+    |   |   └── README.md

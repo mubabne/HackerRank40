@@ -34,3 +34,12 @@
 Гаралт:
 2 3 4 1
 ```
+
+## Директор бүтэц
+HackerRank
+    ├──.vscode
+    ├──Algorithm
+    ├── DataStructure
+    |   ├── Bodlogo26
+    |   |   ├── ArraysDS.java
+    |   |   └── README.md

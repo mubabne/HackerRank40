@@ -54,3 +54,12 @@ c
 y
 a
 ```
+
+## Директор бүтэц
+HackerRank
+    ├──.vscode
+    ├──Algorithm
+    ├── DataStructure
+    |   ├── Bodlogo36
+    |   |   ├── SimpleTextEditor.java
+    |   |   └── README.md

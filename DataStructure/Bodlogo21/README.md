@@ -49,6 +49,8 @@ ab
 
 ## Директор бүтэц
 HackerRank
+    ├──.vscode
+    ├──Algorithm
     ├── DataStructure
     |   ├── Bodlogo21
     |   |   ├── SparseArrays.java

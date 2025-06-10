@@ -43,3 +43,12 @@ NxN хэмжээтэй торон дээр эхний цэгээс төгсгө�
 
 Тайлбар: (0,0) → (2,0) → (2,2) → (0,2) = 3 алхам
 ```
+
+## Директор бүтэц
+HackerRank
+    ├──.vscode
+    ├──Algorithm
+    ├── DataStructure
+    |   ├── Bodlogo34
+    |   |   ├── CastleOnTheGrid.java
+    |   |   └── README.md

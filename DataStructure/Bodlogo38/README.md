@@ -45,3 +45,12 @@ find hak
 
 Тайлбар: "hac" угтвараар "hack", "hackerrank" эхэлнэ
 ```
+
+## Директор бүтэц
+HackerRank
+    ├──.vscode
+    ├──Algorithm
+    ├── DataStructure
+    |   ├── Bodlogo38
+    |   |   ├── Contacts.java
+    |   |   └── README.md

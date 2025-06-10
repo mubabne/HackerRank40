@@ -44,3 +44,12 @@
 
 Тайлбар: Эхний стекээс [4, 2], хоёр дахь стекээс [2, 1] = 4 элемент
 ```
+
+## Директор бүтэц
+HackerRank
+    ├──.vscode
+    ├──Algorithm
+    ├── DataStructure
+    |   ├── Bodlogo35
+    |   |   ├── GameOfTwoStack.java
+    |   |   └── README.md

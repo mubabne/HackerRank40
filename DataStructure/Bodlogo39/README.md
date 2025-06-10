@@ -34,3 +34,12 @@
 Хосууд: (1,6), (2,5), (3,4)
 Хариу: 3
 ```
+
+## Директор бүтэц
+HackerRank
+    ├──.vscode
+    ├──Algorithm
+    ├── DataStructure
+    |   ├── Bodlogo39
+    |   |   ├── ArrayPairs.java
+    |   |   └── README.md

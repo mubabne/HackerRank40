@@ -43,3 +43,12 @@
 Тайлбар: Эхний анхдагч тоо 2-оор хуваагддаг: 2, 4, 6
 Үлдсэн: 3, 5
 ```
+
+## Директор бүтэц
+HackerRank
+    ├──.vscode
+    ├──Algorithm
+    ├── DataStructure
+    |   ├── Bodlogo37
+    |   |   ├── Waiter.java
+    |   |   └── README.md

@@ -32,3 +32,12 @@
 Node-ууд: [1, 3, 4]
 Тооцоолол: сумм(i * j * distance(i,j))
 ```
+
+## Директор бүтэц
+HackerRank
+    ├──.vscode
+    ├──Algorithm
+    ├── DataStructure
+    |   ├── Bodlogo25
+    |   |   ├── KittysCalculation.java
+    |   |   └── README.md

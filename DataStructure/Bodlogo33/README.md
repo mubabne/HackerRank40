@@ -46,3 +46,11 @@ YES
 NO
 YES
 ```
+## Директор бүтэц
+HackerRank
+    ├──.vscode
+    ├──Algorithm
+    ├── DataStructure
+    |   ├── Bodlogo33
+    |   |   ├── BalancedBrackets.java
+    |   |   └── README.md

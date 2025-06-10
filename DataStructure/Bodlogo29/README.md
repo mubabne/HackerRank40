@@ -36,3 +36,12 @@ d алхмаар зүүн эргүүлсэн массив
 
 Тайлбар: 4 алхам зүүн эргүүлэх нь 1 алхам баруун эргүүлэхтэй тэнцүү
 ```
+
+## Директор бүтэц
+HackerRank
+    ├──.vscode
+    ├──Algorithm
+    ├── DataStructure
+    |   ├── Bodlogo29
+    |   |   ├── LeftRotation.java
+    |   |   └── README.md

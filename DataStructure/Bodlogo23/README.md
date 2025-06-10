@@ -39,3 +39,12 @@
 Кодлогдсон: 001011101
 Тайлагдсан: ABACA
 ```
+
+## Директор бүтэц
+HackerRank
+    ├──.vscode
+    ├──Algorithm
+    ├── DataStructure
+    |   ├── Bodlogo23
+    |   |   ├── HuffmanDecoding.java
+    |   |   └── README.md

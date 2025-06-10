@@ -43,3 +43,12 @@
 - Хүүхэд 3: 0 цаг (аль хэдийн дууссан)
 - Хүүхэд 4: 3 цаг (дуусгана)
 ```
+
+## Директор бүтэц
+HackerRank
+    ├──.vscode
+    ├──Algorithm
+    ├── DataStructure
+    |   ├── Bodlogo40
+    |   |   ├── KindergartenAdventures.java
+    |   |   └── README.md
