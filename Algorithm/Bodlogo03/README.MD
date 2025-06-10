@@ -40,10 +40,9 @@ System.out.println(result);
 
 Гаралт:
 15511210043330985984000000
-
+```
 
 ## Директор бүтэц
-
 HackerRank
     ├──.vscode
     ├──DataStructure
