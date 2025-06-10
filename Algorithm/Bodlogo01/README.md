@@ -38,7 +38,10 @@
 
 ## Директор бүтэц
 HackerRank
+    ├──.vscode
+    ├──DataStructure
     ├── Algorithm
     |   ├── Bodlogo01
     |   |   ├── FormingMagicSquare.java
     |   |   └── README.md
+    

@@ -45,7 +45,9 @@ haveaniceday
 hae and via ecy
 
 HackerRank
-    ├── Algorithm
-    |   ├── Bodlogo07
-    |   |   ├── Encryption.java
-    |   |   └── README.md
+   ├──.vscode
+   ├──DataStructure
+   ├── Algorithm
+   |   ├── Bodlogo07
+   |   |   ├── Encryption.java
+   |   |   └── README.md

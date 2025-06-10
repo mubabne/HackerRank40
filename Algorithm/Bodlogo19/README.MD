@@ -34,7 +34,9 @@
 
 ## Директор бүтэц
 HackerRank
-    ├── Algorithm
-    |   ├── Bodlogo19
-    |   |   ├── Homework.java
-    |   |   └── README.md
+   ├──.vscode
+   ├──DataStructure
+   ├── Algorithm
+   |   ├── Bodlogo19
+   |   |   ├── Homework.java
+   |   |   └── README.md

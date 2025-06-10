@@ -48,7 +48,9 @@ Alice 102 оноо авсан нь хамгийн өндөр оноо учраа
 ## Директор бүтэц
 
 HackerRank
-    ├── Algorithm
-    |   ├── Bodlogo02
-    |   |   ├── ClimbingTheLeaderboard.java
-    |   |   └── README.md
+   ├──.vscode
+   ├──DataStructure
+   ├── Algorithm
+   |   ├── Bodlogo02
+   |   |   ├── ClimbingTheLeaderboard.java
+   |   |   └── README.md

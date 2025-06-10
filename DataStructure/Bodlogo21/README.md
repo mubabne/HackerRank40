@@ -1,8 +1,13 @@
-# Problem 21: Sparse Arrays (Сийрэг массив)
+# Sparse Arrays - HackerRank
 
 ## Бодлогын тайлбар
 
 Энэ бодлого нь өгөгдсөн мөр жагсаалтаас асуултын мөрүүдийн хэдэн удаа давтагдаж байгааг тооцоолохтой холбоотой. Sparse Arrays буюу Сийрэг массивын онцлог нь ихэвчлэн хоосон утгатай элементүүдтэй байдаг.
+
+## Холбоос
+
+- [HackerRank - Sparse Arrays](https://www.hackerrank.com/challenges/sparse-arrays)
+
 
 ## Оролт
 
@@ -21,9 +26,6 @@
 2. Асуулт бүрийн хувьд HashMap-аас давтамжийг хайж олно
 3. Цаг хугацааны нарийвчлал: O(n + q)
 
-## Холбоос
-
-- [HackerRank - Sparse Arrays](https://www.hackerrank.com/challenges/sparse-arrays)
 
 ## Жишээ
 
@@ -44,3 +46,10 @@ ab
 1
 0
 ```
+
+## Директор бүтэц
+HackerRank
+    ├── DataStructure
+    |   ├── Bodlogo21
+    |   |   ├── SparseArrays.java
+    |   |   └── README.md

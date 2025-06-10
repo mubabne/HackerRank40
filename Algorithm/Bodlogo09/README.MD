@@ -44,6 +44,8 @@ quarter to six
 
 ## Директор бүтэц
 HackerRank
+    ├──.vscode
+    ├──DataStructure
     ├── Algorithm
     |   ├── Bodlogo09
     |   |   ├── TimeInWords.java

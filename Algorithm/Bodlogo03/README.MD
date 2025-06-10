@@ -45,6 +45,8 @@ System.out.println(result);
 ## Директор бүтэц
 
 HackerRank
+    ├──.vscode
+    ├──DataStructure
     ├── Algorithm
     |   ├── Bodlogo03
     |   |   ├── ExtraLongFactorials.java

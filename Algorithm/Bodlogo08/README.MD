@@ -42,6 +42,8 @@ hcdk
 
 ## Директор бүтэц
 HackerRank
+    ├──.vscode
+    ├──DataStructure
     ├── Algorithm
     |   ├── Bodlogo08
     |   |   ├── BiggerIsGreater.java

@@ -4,8 +4,6 @@
 
 Нэг string өгөгдөнө. Зорилго нь: тухайн string дэх бүх тэмдэгтүүд **ижил тоогоор** давтагдаж байвал эсвэл **нэг тэмдэгтийг хасахад** ижил давтамжтай болгох боломжтой бол `YES`, боломжгүй бол `NO` гэж хэвлэх.
 
----
-
 ## Бодлогын холбоос
 
 [Sherlock and the Valid String - HackerRank](https://www.hackerrank.com/challenges/sherlock-and-valid-string/problem?isFullScreen=true)
@@ -23,7 +21,6 @@
      - Давтамжуудын зөрүү `1` бөгөөд их давтамж нь ганц удаа гарсан → `YES`
    - Бусад тохиолдолд → `NO`
 
----
 
 ## Жишээ
 
@@ -36,6 +33,8 @@ NO
 
 ## Директор бүтэц
 HackerRank
+    ├──.vscode
+    ├──DataStructure
     ├── Algorithm
     |   ├── Bodlogo20
     |   |   ├── SherlockValidString.java

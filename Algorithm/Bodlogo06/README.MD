@@ -50,6 +50,8 @@ Impossible
 ## Директор бүтэц
 
 HackerRank
+    ├──.vscode
+    ├──DataStructure
     ├── Algorithm
     |   ├── Bodlogo06
     |   |   ├── OrganizingContainer.java

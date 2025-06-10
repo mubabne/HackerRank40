@@ -38,6 +38,8 @@
 
 ## Директор бүтэц
 HackerRank
+    ├──.vscode
+    ├──DataStructure
     ├── Algorithm
     |   ├── Bodlogo17
     |   |   ├── CountingSort.java

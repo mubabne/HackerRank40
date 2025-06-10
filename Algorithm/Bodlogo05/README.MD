@@ -41,6 +41,8 @@ obstacles = [[5, 5], [4, 2], [2, 3]]
 ## Директор бүтэц
 
 HackerRank
+    ├──.vscode
+    ├──DataStructure
     ├── Algorithm
     |   ├── Bodlogo05
     |   |   ├── QueensAttack.java

@@ -40,7 +40,9 @@ reverse 2 5
 
 ## Директор бүтэц
 HackerRank
-    ├── Algorithm
-    |   ├── Bodlogo16
-    |   |   ├── AlmostSorted.java
-    |   |   └── README.md
+   ├──.vscode
+   ├──DataStructure
+   ├── Algorithm
+   |   ├── Bodlogo16
+   |   |   ├── AlmostSorted.java
+   |   |   └── README.md

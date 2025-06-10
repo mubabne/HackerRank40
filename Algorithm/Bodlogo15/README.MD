@@ -45,6 +45,8 @@ NO
 
 ## Директор бүтэц
 HackerRank
+    ├──.vscode
+    ├──DataStructure
     ├── Algorithm
     |   ├── Bodlogo15
     |   |   ├── Array.java

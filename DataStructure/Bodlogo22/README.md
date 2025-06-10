@@ -1,4 +1,4 @@
-# Problem 22: Cycle Detection (Мөчлөг илрүүлэх)
+# Cycle Detection - HackerRank
 
 ## Бодлогын тайлбар
 
@@ -37,3 +37,9 @@
 Жагсаалт: 1 -> 2 -> 3 -> null
 Гаралт: 0
 ```
+## Директор бүтэц
+HackerRank
+    ├── DataStructure
+    |   ├── Bodlogo22
+    |   |   ├── CycleDetection.java
+    |   |   └── README.md

@@ -43,6 +43,7 @@ public class SherlockValidString {
         } else {
             System.out.println("NO");
         }
+        scanner.close();
     }
 }
 

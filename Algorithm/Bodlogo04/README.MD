@@ -55,6 +55,8 @@ k = 4
 ## Директор бүтэц
 
 HackerRank
+    ├──.vscode
+    ├──DataStructure
     ├── Algorithm
     |   ├── Bodlogo04
     |   |   ├── NonDivisibleSubset.java
