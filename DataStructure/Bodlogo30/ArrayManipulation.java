@@ -7,17 +7,9 @@ import static java.util.stream.Collectors.toList;
 
 class Result {
 
-    /*
-     * Complete the 'arrayManipulation' function below.
-     *
-     * The function is expected to return a LONG_INTEGER.
-     * The function accepts following parameters:
-     * 1. INTEGER n
-     * 2. 2D_INTEGER_ARRAY queries
-     */
-
+    
     public static long arrayManipulation(int n, List<List<Integer>> queries) {
-        long[] arr = new long[n + 2]; // +2 to safely handle b+1
+        long[] arr = new long[n + 2]; 
 
         for (List<Integer> q : queries) {
             int a = q.get(0);

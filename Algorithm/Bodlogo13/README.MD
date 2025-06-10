@@ -47,6 +47,8 @@ OOO...O
 
 ## Директор бүтэц
 HackerRank
+    ├──.vscode
+    ├──DataStructure
     ├── Algorithm
     |   ├── Bodlogo13
     |   |   ├── BomberMan.java

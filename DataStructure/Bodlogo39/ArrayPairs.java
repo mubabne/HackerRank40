@@ -7,13 +7,7 @@ import static java.util.stream.Collectors.toList;
 
 class Result {
 
-    /*
-     * Complete the 'solve' function below.
-     *
-     * The function is expected to return a LONG_INTEGER.
-     * The function accepts INTEGER_ARRAY arr as parameter.
-     */
-
+  
     public static long solve(List<Integer> arr) {
         int n = arr.size();
         long count = 0;

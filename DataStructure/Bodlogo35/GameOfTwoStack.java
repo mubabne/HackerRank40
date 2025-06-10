@@ -7,21 +7,11 @@ import static java.util.stream.Collectors.toList;
 
 class Result {
 
-    /*
-     * Complete the 'twoStacks' function below.
-     *
-     * The function is expected to return an INTEGER.
-     * The function accepts following parameters:
-     * 1. INTEGER maxSum
-     * 2. INTEGER_ARRAY a
-     * 3. INTEGER_ARRAY b
-     */
 
     public static int twoStacks(int maxSum, List<Integer> a, List<Integer> b) {
         int sum = 0;
         int i = 0, j = 0;
 
-        // First take as many from b as possible
         while (j < b.size() && sum + b.get(j) <= maxSum) {
             sum += b.get(j);
             j++;
@@ -29,7 +19,6 @@ class Result {
 
         int maxCount = j;
 
-        // Now try to include from a, reducing from b when needed
         while (i < a.size()) {
             sum += a.get(i);
             i++;

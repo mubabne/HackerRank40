@@ -39,6 +39,8 @@
 
 ## Директор бүтэц
 HackerRank
+    ├──.vscode
+    ├──DataStructure
     ├── Algorithm
     |   ├── Bodlogo11
     |   |   ├── SurfaceArea3D.java

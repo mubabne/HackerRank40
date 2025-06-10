@@ -7,15 +7,8 @@ import static java.util.stream.Collectors.toList;
 
 class Result {
 
-    /*
-     * Complete the 'largestRectangle' function below.
-     *
-     * The function is expected to return a LONG_INTEGER.
-     * The function accepts INTEGER_ARRAY h as parameter.
-     */
-
     public static long largestRectangle(List<Integer> h) {
-        // Write your code here
+        
         Stack<Integer> stack = new Stack<>();
         long maxArea = 0;
         int n = h.size();

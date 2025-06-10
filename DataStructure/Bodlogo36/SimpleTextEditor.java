@@ -10,7 +10,7 @@ public class SimpleTextEditor {
         int Q = Integer.parseInt(reader.readLine());
 
         StringBuilder current = new StringBuilder();
-        Deque<String> history = new ArrayDeque<>(); // To support undo
+        Deque<String> history = new ArrayDeque<>();
         StringBuilder output = new StringBuilder();
 
         for (int i = 0; i < Q; i++) {
@@ -18,23 +18,23 @@ public class SimpleTextEditor {
             int type = Integer.parseInt(parts[0]);
 
             switch (type) {
-                case 1: // append(W)
+                case 1: 
                     history.push(current.toString());
                     current.append(parts[1]);
                     break;
 
-                case 2: // delete(k)
+                case 2: 
                     history.push(current.toString());
                     int k = Integer.parseInt(parts[1]);
                     current.setLength(current.length() - k);
                     break;
 
-                case 3: // print(k)
+                case 3: 
                     int pos = Integer.parseInt(parts[1]);
                     output.append(current.charAt(pos - 1)).append("\n");
                     break;
 
-                case 4: // undo()
+                case 4: 
                     if (!history.isEmpty()) {
                         current = new StringBuilder(history.pop());
                     }

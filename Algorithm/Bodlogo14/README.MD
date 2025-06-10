@@ -42,6 +42,8 @@ GGGGGG
 
 ## Директор бүтэц
 HackerRank
+    ├──.vscode
+    ├──DataStructure
     ├── Algorithm
     |   ├── Bodlogo14
     |   |   ├── DoublePlus.java

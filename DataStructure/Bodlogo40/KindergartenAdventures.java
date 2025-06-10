@@ -5,9 +5,7 @@ import java.util.*;
 
 public class KindergartenAdventures {
 
-    /*
-     * Complete the solve function below.
-     */
+  
     static int solve(int[] t) {
         int n = t.length;
         int maxComplete = -1;
@@ -28,7 +26,7 @@ public class KindergartenAdventures {
             }
         }
 
-        return bestStart + 1; // return as 1-based ID
+        return bestStart + 1; 
     }
 
     private static final Scanner scanner = new Scanner(System.in);

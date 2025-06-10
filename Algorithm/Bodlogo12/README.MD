@@ -41,6 +41,8 @@
 
 ## Директор бүтэц
 HackerRank
+    ├──.vscode
+    ├──DataStructure
     ├── Algorithm
     |   ├── Bodlogo12
     |   |   ├── AbsolutePermutation.java

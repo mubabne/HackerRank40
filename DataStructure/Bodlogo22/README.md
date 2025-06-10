@@ -37,8 +37,11 @@
 Жагсаалт: 1 -> 2 -> 3 -> null
 Гаралт: 0
 ```
+
 ## Директор бүтэц
 HackerRank
+    ├── .vscode
+    ├── Algorithm
     ├── DataStructure
     |   ├── Bodlogo22
     |   |   ├── CycleDetection.java

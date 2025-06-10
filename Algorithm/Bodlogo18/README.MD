@@ -37,6 +37,8 @@
 
 ## Директор бүтэц
 HackerRank
+   ├──.vscode
+    ├──DataStructure
     ├── Algorithm
     |   ├── Bodlogo18
     |   |   ├── FraudulentActivity.java

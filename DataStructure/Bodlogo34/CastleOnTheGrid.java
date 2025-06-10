@@ -7,26 +7,16 @@ import static java.util.stream.Collectors.toList;
 
 class Result {
 
-    /*
-     * Complete the 'minimumMoves' function below.
-     *
-     * The function is expected to return an INTEGER.
-     * The function accepts following parameters:
-     * 1. STRING_ARRAY grid
-     * 2. INTEGER startX
-     * 3. INTEGER startY
-     * 4. INTEGER goalX
-     * 5. INTEGER goalY
-     */
+   
 
     public static int minimumMoves(List<String> grid, int startX, int startY, int goalX, int goalY) {
         int n = grid.size();
         boolean[][] visited = new boolean[n][n];
         Queue<int[]> queue = new LinkedList<>();
-        queue.add(new int[] { startX, startY, 0 }); // x, y, moves
+        queue.add(new int[] { startX, startY, 0 }); 
         visited[startX][startY] = true;
 
-        int[][] directions = { { 1, 0 }, { -1, 0 }, { 0, 1 }, { 0, -1 } }; // down, up, right, left
+        int[][] directions = { { 1, 0 }, { -1, 0 }, { 0, 1 }, { 0, -1 } }; 
 
         while (!queue.isEmpty()) {
             int[] current = queue.poll();
@@ -54,7 +44,7 @@ class Result {
             }
         }
 
-        return -1; // unreachable
+        return -1; 
     }
 
 }

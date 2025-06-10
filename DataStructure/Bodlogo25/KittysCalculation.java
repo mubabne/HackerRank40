@@ -5,7 +5,7 @@ import java.util.*;
 
 public class KittysCalculation {
     static final int MOD = 1_000_000_007;
-    static int LOG = 20; // Increased for better coverage
+    static int LOG = 20; 
     static List<Integer>[] tree;
     static int[][] up;
     static int[] depth, tin, tout;
@@ -49,19 +49,16 @@ public class KittysCalculation {
             long total = 0;
             Map<Long, Integer> lcaCache = new HashMap<>();
 
-            // Optimize: precompute some values to avoid redundant calculations
             for (int i = 0; i < k; i++) {
                 int u = nodes[i];
                 for (int j = i + 1; j < k; j++) {
                     int v = nodes[j];
                     
-                    // Create a unique key for the pair (u,v)
                     long pairKey = ((long) Math.min(u, v) << 32) | Math.max(u, v);
                     int lca_uv = lcaCache.computeIfAbsent(pairKey, key -> lca(u, v));
                     
                     int d = depth[u] + depth[v] - 2 * depth[lca_uv];
                     
-                    // Optimize modular arithmetic
                     long uv = ((long) u * v) % MOD;
                     long term = (uv * d) % MOD;
                     total = (total + term) % MOD;
@@ -105,8 +102,6 @@ public class KittysCalculation {
             u = v;
             v = temp;
         }
-        
-        // Bring u to the same level as v
         int diff = depth[u] - depth[v];
         for (int i = 0; i < LOG; i++) {
             if ((diff & (1 << i)) != 0) {
@@ -116,7 +111,6 @@ public class KittysCalculation {
         
         if (u == v) return u;
         
-        // Binary search for LCA
         for (int i = LOG - 1; i >= 0; i--) {
             if (up[u][i] != up[v][i]) {
                 u = up[u][i];

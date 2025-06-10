@@ -52,6 +52,8 @@ YES
 
 ## Директор бүтэц
 HackerRank
+    ├──.vscode
+    ├──DataStructure
     ├── Algorithm
     |   ├── Bodlogo10
     |   |   ├── TheGridSearch.java

@@ -8,20 +8,13 @@ import static java.util.stream.Collectors.toList;
 
 class Result {
 
-    /*
-     * Complete the 'waiter' function below.
-     *
-     * The function is expected to return an INTEGER_ARRAY.
-     * The function accepts following parameters:
-     * 1. INTEGER_ARRAY number
-     * 2. INTEGER q
-     */
+
 
     public static List<Integer> waiter(List<Integer> number, int q) {
         List<Integer> answers = new ArrayList<>();
         List<Integer> primes = generatePrimes(q);
 
-        Deque<Integer> current = new ArrayDeque<>(number); // preserves insertion order
+        Deque<Integer> current = new ArrayDeque<>(number); 
         Deque<Integer> next = new ArrayDeque<>();
 
         for (int i = 0; i < q; i++) {
@@ -29,28 +22,24 @@ class Result {
             Deque<Integer> bStack = new ArrayDeque<>();
 
             while (!current.isEmpty()) {
-                int plate = current.pollLast(); // simulate stack: take from end
+                int plate = current.pollLast(); 
                 if (plate % prime == 0) {
-                    bStack.addLast(plate); // FIFO order
+                    bStack.addLast(plate);
                 } else {
                     next.addLast(plate);
                 }
             }
 
-            // Append B_i stack top to bottom (i.e., reverse of how added)
             while (!bStack.isEmpty()) {
                 answers.add(bStack.pollLast());
             }
 
-            // Prepare for next iteration
             Deque<Integer> temp = current;
             current = next;
             next = temp;
         }
-
-        // Remaining elements in current (A_q), top to bottom
         while (!current.isEmpty()) {
-            answers.add(current.pollLast()); // top-to-bottom
+            answers.add(current.pollLast()); 
         }
 
         return answers;

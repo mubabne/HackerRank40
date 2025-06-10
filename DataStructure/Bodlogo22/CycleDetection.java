@@ -50,17 +50,6 @@ public class CycleDetection {
         }
     }
 
-    // Complete the hasCycle function below.
-
-    /*
-     * For your reference:
-     *
-     * SinglyLinkedListNode {
-     * int data;
-     * SinglyLinkedListNode next;
-     * }
-     *
-     */
     static boolean hasCycle(SinglyLinkedListNode head) {
         if (head == null)
             return false;
@@ -73,11 +62,11 @@ public class CycleDetection {
             fast = fast.next.next;
 
             if (slow == fast) {
-                return true; // cycle detected
+                return true; 
             }
         }
 
-        return false; // no cycle
+        return false; 
     }
 
     private static final Scanner scanner = new Scanner(System.in);
